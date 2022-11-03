@@ -114,16 +114,16 @@ namespace TelegramUI.Commands
             result[0] = string.Format(textsList[0], wish.Description, HttpUtility.HtmlEncode(message.From.FirstName), wish.Name, wish.Stars, wish.Type);
 
             result[1] =
-                $"https://i0.wp.com/raw.githubusercontent.com/FrenzyYum/GenshinWishingBot/master/assets/images/{wish.Id}.webp";
+                $"http://haydman.ru/{wish.Id}.webp";
             
             if (wish.Id is "barbara" or "jean")
             {
-                result[1] = $"https://i0.wp.com/raw.githubusercontent.com/FrenzyYum/GenshinWishingBot/master/assets/images/{wish.Id}-summer.webp";
+                result[1] = $"http://haydman.ru/{wish.Id}-summer.webp";
             }
             
             if (wish.Id is "keqing" or "ningguang")
             {
-                result[1] = $"https://i0.wp.com/raw.githubusercontent.com/FrenzyYum/GenshinWishingBot/master/assets/images/{wish.Id}-lanternrite.webp";
+                result[1] = $"http://haydman.ru/{wish.Id}-lanternrite.webp";
             }
             
             return result;
