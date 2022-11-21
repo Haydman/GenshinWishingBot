@@ -1,3 +1,5 @@
+# This is only RUSSIAN supported fork. If you wanna add english support, write me
+
 # GenshinWishingBot
 
 A Telegram chat bot that simulates Genshin Impact wishes. Built with C#, .NET 5.0 and SQLite as RDBMS.
